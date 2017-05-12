@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{D8CF5077-A5CB-44B0-A507-0A82FF2315BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.ApiAuth", "src\Lykke.ApiAuth\Lykke.ApiAuth.csproj", "{C64AD5D4-E4F0-4F8A-AC50-39C96792F513}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.ApiAuth.Azure", "src\Lykke.ApiAuth.Azure\Lykke.ApiAuth.Azure.csproj", "{0B18C6C6-53DC-4783-A7A0-9DC6C3A425A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.ApiAuth.Mvc", "src\Lykke.ApiAuth.Mvc\Lykke.ApiAuth.Mvc.csproj", "{3879079F-CEC4-4CD1-A782-DBCAAB3795DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{BDA9616C-0D52-454D-AA63-F13068E748BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.Extensions", "src\Lykke.Extensions\Lykke.Extensions.csproj", "{3F671B76-4D6F-4B95-A38D-57B40DB97721}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.Http", "src\Lykke.Http\Lykke.Http.csproj", "{81681B24-370E-4979-B103-135861432659}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C64AD5D4-E4F0-4F8A-AC50-39C96792F513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C64AD5D4-E4F0-4F8A-AC50-39C96792F513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C64AD5D4-E4F0-4F8A-AC50-39C96792F513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C64AD5D4-E4F0-4F8A-AC50-39C96792F513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B18C6C6-53DC-4783-A7A0-9DC6C3A425A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B18C6C6-53DC-4783-A7A0-9DC6C3A425A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B18C6C6-53DC-4783-A7A0-9DC6C3A425A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B18C6C6-53DC-4783-A7A0-9DC6C3A425A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3879079F-CEC4-4CD1-A782-DBCAAB3795DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3879079F-CEC4-4CD1-A782-DBCAAB3795DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3879079F-CEC4-4CD1-A782-DBCAAB3795DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3879079F-CEC4-4CD1-A782-DBCAAB3795DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F671B76-4D6F-4B95-A38D-57B40DB97721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F671B76-4D6F-4B95-A38D-57B40DB97721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F671B76-4D6F-4B95-A38D-57B40DB97721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F671B76-4D6F-4B95-A38D-57B40DB97721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81681B24-370E-4979-B103-135861432659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81681B24-370E-4979-B103-135861432659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81681B24-370E-4979-B103-135861432659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81681B24-370E-4979-B103-135861432659}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C64AD5D4-E4F0-4F8A-AC50-39C96792F513} = {D8CF5077-A5CB-44B0-A507-0A82FF2315BE}
+		{0B18C6C6-53DC-4783-A7A0-9DC6C3A425A8} = {D8CF5077-A5CB-44B0-A507-0A82FF2315BE}
+		{3879079F-CEC4-4CD1-A782-DBCAAB3795DD} = {D8CF5077-A5CB-44B0-A507-0A82FF2315BE}
+		{3F671B76-4D6F-4B95-A38D-57B40DB97721} = {BDA9616C-0D52-454D-AA63-F13068E748BE}
+		{81681B24-370E-4979-B103-135861432659} = {BDA9616C-0D52-454D-AA63-F13068E748BE}
+	EndGlobalSection
+EndGlobal
